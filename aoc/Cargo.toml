@@ -1,0 +1,28 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "aoc1_1"
+path = "src/aoc1_1.rs"
+
+[[bin]]
+name = "aoc1_2"
+path = "src/aoc1_2.rs"
+
+[[bin]]
+name = "aoc2"
+path = "src/aoc2.rs"
+
+[[bin]]
+name = "aoc2_2"
+path = "src/aoc2_2.rs"
+
+[[bin]]
+name = "aoc3"
+path = "src/aoc3.rs"
